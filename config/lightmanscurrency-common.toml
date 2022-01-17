@@ -1,0 +1,161 @@
+
+#Common configuration settings
+[common]
+	#Determines whether or not coins should be craftable via the Coin Minting Machine.
+	canMintCoins = true
+	#Determines whether or not coins can be melted back into their source material in the Coin Minting Machine.
+	canMeltCoins = false
+	#Level of debug messages to be shown in the logs.
+	#0-All debug messages. 1-Warnings/Errors only. 2-Errors only. 3-No debug messages.
+	#Note: All debug messages will still be sent debug.log regardless of settings.
+	#Range: 0 ~ 3
+	debugLevel = 0
+
+	#Specific Coin Minting Settings.
+	[common.coin_minting]
+		#Whether copper coins can be minted.
+		canMintCopper = true
+		#Whether iron coins can be minted.
+		canMintIron = true
+		#Whether gold coins can be minted.
+		canMintGold = true
+		#Whether emerald coins can be minted.
+		canMintEmerald = true
+		#Whether diamond coins can be minted.
+		canMintDiamond = true
+		#Whether netherite coins can be minted.
+		canMintNetherite = true
+
+	#Specific Coin Melting Settings.
+	[common.coin_melting]
+		#Whether copper coins can be melted.
+		canMeltCopper = true
+		#Whether iron coins can be melted.
+		canMeltIron = true
+		#Whether gold coins can be melted.
+		canMeltGold = true
+		#Whether emerald coins can be melted.
+		canMeltEmerald = true
+		#Whether diamond coins can be melted.
+		canMeltDiamond = true
+		#Whether netherite coins can be melted.
+		canMeltNetherite = true
+
+	#Villager Related Settings.
+	[common.villagers]
+		#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
+		addCustomWanderingTrades = true
+		#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
+		addBanker = true
+		#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
+		addCashier = true
+
+	#Entity loot settings. Inputs can be either loot-table id, or the LivingEntities id.
+	[common.entity_loot]
+		#Whether coins can be dropped by entities. Does not effect chest loot generation.
+		enableEntityDrops = true
+		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
+		enableSpawnerEntityDrops = false
+		#Entities that will occasionally drop copper coins.
+		copper = ["minecraft:slime", "minecraft:silverfish"]
+		#Entities that will occasionally drop copper -> iron coins.
+		iron = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
+		#Entities that will occasionally drop copper -> gold coins.
+		gold = ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:phantom", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
+		#Entities that will occasionally drop copper -> emerald coins.
+		emerald = ["minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker"]
+		#Entities that will occasionally drop copper -> diamond coins.
+		diamond = ["minecraft:wither_skeleton"]
+		#Entities that will occasionally drop copper -> netherite coins.
+		netherite = []
+		#Entities that will drop a large amount of copper coins.
+		boss_copper = []
+		#Entities that will drop a large amount of copper -> iron coins.
+		boss_iron = []
+		#Entities that will drop a large amount of copper -> gold coins.
+		boss_gold = []
+		#Entities that will drop a large amount of copper -> emerald coins.
+		boss_emerald = []
+		#Entities that will drop a large amount of copper -> diamond coins.
+		boss_diamond = ["minecraft:ender_dragon"]
+		#Entities that will drop a large amount of copper -> netherite coins.
+		boss_netherite = ["minecraft:wither"]
+
+	#Chest loot settings.
+	[common.chest_loot]
+		#Whether coins can spawn in chests Does not effect entity loot drops.
+		enableChestLoot = true
+		#Chests that will occasionally spawn copper coins.
+		copper = ["minecraft:chests/simple_dungeon"]
+		#Chests that will occasionally spawn copper -> iron coins.
+		iron = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
+		#Chests that will occasionally spawn copper -> gold coins.
+		gold = ["minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure"]
+		#Chests that will occasionally spawn copper -> emerald coins.
+		emerald = ["minecraft:chests/jungle_temple"]
+		#Chests that will occasionally spawn copper -> diamond coins.
+		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library"]
+		#Chests that will occasionally spawn copper -> netherite coins.
+		netherite = ["minecraft:chests/nether_bridge", "minecraft:chests/ruined_portal"]
+
+	#Coin value settings.
+	[common.coin_value]
+		#How many copper coins are required to make 1 iron coin.
+		#Range: 2 ~ 64
+		coinValueIron = 5
+		#How many iron coins are required to make 1 gold coin.
+		#Range: 2 ~ 64
+		coinValueGold = 5
+		#How many gold coins are required to make 1 emerald coin.
+		#Range: 2 ~ 64
+		coinValueEmerald = 5
+		#How many emerald coins are required to make 1 diamond coin.
+		#Range: 2 ~ 64
+		coinValueDiamond = 5
+		#How many diamond coins are required to make 1 netherite coin.
+		#Range: 2 ~ 64
+		coinValueNetherite = 5
+
+		#Coinpile values (leave as default unless a datapack/mod changes the crafting recipes)
+		[common.coin_value.coinpile]
+			#How many copper coins are used to craft a copper coinpile.
+			#Range: 2 ~ 9
+			coinpileValueCopper = 9
+			#How many iron coins are used to craft an iron coinpile.
+			#Range: 2 ~ 9
+			coinpileValueIron = 9
+			#How many gold coins are used to craft a gold coinpile.
+			#Range: 2 ~ 9
+			coinpileValueGold = 9
+			#How many emerald coins are used to craft an emerald coinpile.
+			#Range: 2 ~ 9
+			coinpileValueEmerald = 9
+			#How many diamond coins are used to craft a diamond coinpile.
+			#Range: 2 ~ 9
+			coinpileValueDiamond = 9
+			#How many netherite coins are used to craft a netherite coinpile.
+			#Range: 2 ~ 9
+			coinpileValueNetherite = 9
+
+		#Coin block values.
+		#Leave at default values unless a datapack/mod changes the crafting recipes!
+		[common.coin_value.coinblock]
+			#How many copper coinpiles are used to craft a copper coin block.
+			#Range: 2 ~ 9
+			coinBlockValueCopper = 4
+			#How many iron coinpiles are used to craft an iron coin block.
+			#Range: 2 ~ 9
+			coinBlockValueIron = 4
+			#How many gold coinpiles are used to craft a gold coin block.
+			#Range: 2 ~ 9
+			coinBlockValueGold = 4
+			#How many emerald coinpiles are used to craft an emerald coin block.
+			#Range: 2 ~ 9
+			coinBlockValueEmerald = 4
+			#How many diamond coinpiles are used to craft a diamond coin block.
+			#Range: 2 ~ 9
+			coinBlockValueDiamond = 4
+			#How many netherite coinpiles are used to craft a netherite coin block.
+			#Range: 2 ~ 9
+			coinBlockValueNetherite = 4
+

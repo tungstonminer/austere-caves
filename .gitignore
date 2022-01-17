@@ -1,0 +1,12 @@
+.curseclient
+crash-reports
+downloads/
+knownkeys.txt
+local/
+logs/
+options.txt
+realms_persistence.json
+saves/
+screenshots/
+usercache.json
+usernamecache.json

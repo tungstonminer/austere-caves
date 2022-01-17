@@ -1,0 +1,7 @@
+
+#Server Config Settings
+[server]
+	#The maximum amount of entries allowed in a text log.
+	#Range: > 1
+	logLimit = 100
+
