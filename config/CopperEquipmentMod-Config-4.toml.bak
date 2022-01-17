@@ -1,0 +1,45 @@
+
+["The config is currently under development and is unstable"]
+
+	["The config is currently under development and is unstable"."\nCopper Equipment Mod Config!"]
+		"Copper Helmet Durability" = 82
+		"Copper Chestplate Durability" = 168
+		"Copper Leggings Durability" = 149
+		"Copper Boots Durability" = 104
+		# # #
+		"Copper Helmet Protection" = 2
+		"Copper Chestplate Protection" = 6
+		"Copper Leggings Protection" = 5
+		"Copper Boots Protection" = 2
+		# # #
+		# # #
+		"Copper Tools Durability" = 120
+		"Copper Tools Mining Level" = 2
+		# # #
+		"Copper Sword Damage" = 6
+		"Copper Sword Attack Speed" = -2.3
+		# # #
+		"Copper Axe Damage" = 9
+		"Copper Axe Attack Speed" = -3.1
+
+	["The config is currently under development and is unstable"."Copper Equipment Mod! Waxed Config!"]
+		"Waxed Copper Helmet Durability" = 312
+		"Waxed Copper Chestplate Durability" = 398
+		"Waxed Copper Leggings Durability" = 379
+		"Waxed Copper Boots Durability" = 334
+		# # #
+		"Waxed Copper Helmet Protection" = 1
+		"Waxed Copper Chestplate Protection" = 5
+		"Waxed Copper Leggings Protection" = 4
+		"Waxed Copper Boots Protection" = 1
+		# # #
+		# # #
+		"Waxed Copper Tools Durability" = 420
+		"Waxed Copper Tools Mining Level" = 2
+		# # #
+		"Waxed Copper Sword Damage" = 6
+		"Waxed Copper Sword Attack Speed" = -2.5
+		# # #
+		"Waxed Copper Axe Damage" = 9
+		"Waxed Copper Axe Attack Speed" = -3.3
+

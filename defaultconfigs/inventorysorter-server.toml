@@ -1,0 +1,7 @@
+
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["hotbar", "weapon.mainhand", "weapon.offhand"]
+	#Slot type blacklist
+	slotBlacklist = []
