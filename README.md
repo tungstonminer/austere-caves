@@ -10,3 +10,5 @@ After playing modded Minecraft on 1.12 for a long while, I wanted to check out a
 * Gravestone Mod — all your stuff goes into a grave block in case you die
 * Chunk Loaders — keep a part of the work active, even when you're away
 * Finally Farmable — grow flowers for a reliable source of dye
+
+# [Read the Wiki](https://github.com/tungstonminer/french-vanilla/wiki)
