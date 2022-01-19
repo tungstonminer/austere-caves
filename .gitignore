@@ -9,5 +9,6 @@ options.txt
 realms_persistence.json
 saves/
 screenshots/
+servers.dat*
 usercache.json
 usernamecache.json
