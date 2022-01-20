@@ -29,17 +29,17 @@
 	#Specific Coin Melting Settings.
 	[common.coin_melting]
 		#Whether copper coins can be melted.
-		canMeltCopper = true
+		canMeltCopper = false
 		#Whether iron coins can be melted.
-		canMeltIron = true
+		canMeltIron = false
 		#Whether gold coins can be melted.
-		canMeltGold = true
+		canMeltGold = false
 		#Whether emerald coins can be melted.
-		canMeltEmerald = true
+		canMeltEmerald = false
 		#Whether diamond coins can be melted.
-		canMeltDiamond = true
+		canMeltDiamond = false
 		#Whether netherite coins can be melted.
-		canMeltNetherite = true
+		canMeltNetherite = false
 
 	#Villager Related Settings.
 	[common.villagers]
@@ -57,15 +57,15 @@
 		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
 		enableSpawnerEntityDrops = false
 		#Entities that will occasionally drop copper coins.
-		copper = ["minecraft:slime", "minecraft:silverfish"]
+		copper = ["minecraft:zombie", "minecraft:husk", "minecraft:stray", "minecraft:zombie_villager", "minecraft:drowned"]
 		#Entities that will occasionally drop copper -> iron coins.
-		iron = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
+		iron = ["minecraft:witch", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager"]
 		#Entities that will occasionally drop copper -> gold coins.
-		gold = ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:phantom", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
+		gold = ["minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
 		#Entities that will occasionally drop copper -> emerald coins.
-		emerald = ["minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker"]
+		emerald = []
 		#Entities that will occasionally drop copper -> diamond coins.
-		diamond = ["minecraft:wither_skeleton"]
+		diamond = []
 		#Entities that will occasionally drop copper -> netherite coins.
 		netherite = []
 		#Entities that will drop a large amount of copper coins.
@@ -77,9 +77,9 @@
 		#Entities that will drop a large amount of copper -> emerald coins.
 		boss_emerald = []
 		#Entities that will drop a large amount of copper -> diamond coins.
-		boss_diamond = ["minecraft:ender_dragon"]
+		boss_diamond = []
 		#Entities that will drop a large amount of copper -> netherite coins.
-		boss_netherite = ["minecraft:wither"]
+		boss_netherite = []
 
 	#Chest loot settings.
 	[common.chest_loot]
@@ -90,11 +90,11 @@
 		#Chests that will occasionally spawn copper -> iron coins.
 		iron = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
 		#Chests that will occasionally spawn copper -> gold coins.
-		gold = ["minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure"]
+		gold = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure"]
 		#Chests that will occasionally spawn copper -> emerald coins.
 		emerald = ["minecraft:chests/jungle_temple"]
 		#Chests that will occasionally spawn copper -> diamond coins.
-		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library"]
+		diamond = ["minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library"]
 		#Chests that will occasionally spawn copper -> netherite coins.
 		netherite = ["minecraft:chests/nether_bridge", "minecraft:chests/ruined_portal"]
 
@@ -158,4 +158,3 @@
 			#How many netherite coinpiles are used to craft a netherite coin block.
 			#Range: 2 ~ 9
 			coinBlockValueNetherite = 4
-

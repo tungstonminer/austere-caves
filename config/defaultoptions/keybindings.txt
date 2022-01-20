@@ -35,9 +35,15 @@ key_key.hotbar.9:key.keyboard.9:NONE
 key_key.lightoverlay.enable_overlay:key.keyboard.f7:NONE
 key_key.carry.desc:key.keyboard.left.shift:NONE
 key_key.tinyredstone.rotation_lock:key.keyboard.left.alt:NONE
-key_key.inventorysorter.sort:key.keyboard.q:NONE
+key_treechop.key.toggle_chopping:scancode.0:NONE
+key_treechop.key.toggle_felling:scancode.0:NONE
+key_treechop.key.cycle_sneak_behavior:scancode.0:NONE
+key_treechop.key.open_settings_overlay:key.keyboard.n:NONE
 key_key.inventorysorter.itemin:key.mouse.100:NONE
+key_key.inventorysorter.sort:key.keyboard.q:NONE
 key_key.inventorysorter.itemout:key.mouse.102:NONE
+key_fpsreducer.key.openGui:key.keyboard.end:NONE
+key_fpsreducer.key.forceIdle:key.keyboard.pause:NONE
 key_key.backpack:key.keyboard.b:NONE
 key_key.wallet:key.keyboard.v:NONE
 key_key.team_settings:key.keyboard.right.bracket:NONE

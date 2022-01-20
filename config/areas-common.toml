@@ -6,7 +6,7 @@
 	#Range: 0 ~ 1000
 	radiusAroundPlayerToCheckForSigns = 100
 	#When enabled, sends the player the area notifications in chat.
-	sendChatMessages = false
+	sendChatMessages = true
 	#When enabled, sends the player the area notifications in the HUD on screen.
 	showHUDMessages = true
 	#The prefix of the message whenever a player enters an area.
@@ -39,4 +39,3 @@
 	#The blue RGB value for the HUD message.
 	#Range: 0 ~ 255
 	HUD_RGB_B = 50
-
