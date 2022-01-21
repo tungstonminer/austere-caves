@@ -1,0 +1,6 @@
+#Give death compass even when gamerule "keepInventory" is enabled.
+ignore_keep_inventory = true
+#Give death compass only to players that dropped items from their inventory upon dying.
+only_on_items_lost = true
+#Give death compass only to survival players that died.
+survival_players_only = true

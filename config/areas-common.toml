@@ -39,3 +39,4 @@
 	#The blue RGB value for the HUD message.
 	#Range: 0 ~ 255
 	HUD_RGB_B = 50
+
