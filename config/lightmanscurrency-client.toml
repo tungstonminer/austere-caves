@@ -16,7 +16,7 @@
 	#Wallet Button Settings
 	[client.wallet_button]
 		#Whether a wallet button should appear on the inventory screen, allowing you to open the wallet screen without use of the keybind.
-		renderButton = false
+		renderButton = true
 		#The x position that the button should be placed at.
 		#Range: -50 ~ 255
 		buttonX = 176
