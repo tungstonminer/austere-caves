@@ -3,5 +3,5 @@ Overrides = ["minecraft:dirt_path,minecraft:dirt", "minecraft:farmland,minecraft
 #Write here a list of items that shouldn't execute mod's path to dirt code. Items must have the format modid:itemid. Item Tags can be used.
 "Item Blacklist" = ["quark:pickarang", "quark:flamerang"]
 #If true the player must be sneaking to make the mod work.
-"Require Sneaking" = false
+"Require Sneaking" = true
 

@@ -50,7 +50,7 @@
 		#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
 		addCashier = true
 
-	#Entity loot settings. Inputs can be either loot-table id, or the LivingEntities id.
+	#Entity loot settings. Accepts entity ids (i.e. minecraft:zombie)
 	[common.entity_loot]
 		#Whether coins can be dropped by entities. Does not effect chest loot generation.
 		enableEntityDrops = true
@@ -158,4 +158,16 @@
 			#How many netherite coinpiles are used to craft a netherite coin block.
 			#Range: 2 ~ 9
 			coinBlockValueNetherite = 4
+
+	#Wallet Settings.
+	[common.wallet]
+		#The lowest level wallet capable of converting coins in the UI.
+		#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet
+		#Must be less than or equal to 'pickupLevel'.
+		#Range: 0 ~ 5
+		convertLevel = 1
+		#The lowest level wallet capable of automatically collecting coins while equipped.
+		#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet
+		#Range: 0 ~ 5
+		pickupLevel = 2
 
